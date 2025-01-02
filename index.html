@@ -1,0 +1,3934 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <title>SEALS</title>
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      var theplus_ajax_url = "/wp-admin/admin-ajax.php";
+      var theplus_ajax_post_url = "/wp-admin/admin-post.php";
+      var theplus_nonce = "eced54d93d";
+      /* ]]> */
+    </script>
+    <meta name="robots" content="noindex, nofollow" />
+    <style>
+      img:is([sizes="auto" i], [sizes^="auto," i]) {
+        contain-intrinsic-size: 3000px 1500px;
+      }
+    </style>
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="SEALS &raquo; Feed"
+      href="/feed/"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="SEALS &raquo; Comments Feed"
+      href="/comments/feed/"
+    />
+    <script type="text/javascript">
+      /* <![CDATA[ */
+      window._wpemojiSettings = {
+        baseUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/",
+        ext: ".png",
+        svgUrl: "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
+        svgExt: ".svg",
+        source: {
+          concatemoji:
+            "https:\/\/seals.army\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.1",
+        },
+      };
+      /*! This file is auto-generated */
+      !(function (i, n) {
+        var o, s, e;
+        function c(e) {
+          try {
+            var t = { supportTests: e, timestamp: new Date().valueOf() };
+            sessionStorage.setItem(o, JSON.stringify(t));
+          } catch (e) {}
+        }
+        function p(e, t, n) {
+          e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+            e.fillText(t, 0, 0);
+          var t = new Uint32Array(
+              e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+            ),
+            r =
+              (e.clearRect(0, 0, e.canvas.width, e.canvas.height),
+              e.fillText(n, 0, 0),
+              new Uint32Array(
+                e.getImageData(0, 0, e.canvas.width, e.canvas.height).data
+              ));
+          return t.every(function (e, t) {
+            return e === r[t];
+          });
+        }
+        function u(e, t, n) {
+          switch (t) {
+            case "flag":
+              return n(
+                e,
+                "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f",
+                "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f"
+              )
+                ? !1
+                : !n(
+                    e,
+                    "\ud83c\uddfa\ud83c\uddf3",
+                    "\ud83c\uddfa\u200b\ud83c\uddf3"
+                  ) &&
+                    !n(
+                      e,
+                      "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+                      "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
+                    );
+            case "emoji":
+              return !n(
+                e,
+                "\ud83d\udc26\u200d\u2b1b",
+                "\ud83d\udc26\u200b\u2b1b"
+              );
+          }
+          return !1;
+        }
+        function f(e, t, n) {
+          var r =
+              "undefined" != typeof WorkerGlobalScope &&
+              self instanceof WorkerGlobalScope
+                ? new OffscreenCanvas(300, 150)
+                : i.createElement("canvas"),
+            a = r.getContext("2d", { willReadFrequently: !0 }),
+            o = ((a.textBaseline = "top"), (a.font = "600 32px Arial"), {});
+          return (
+            e.forEach(function (e) {
+              o[e] = t(a, e, n);
+            }),
+            o
+          );
+        }
+        function t(e) {
+          var t = i.createElement("script");
+          (t.src = e), (t.defer = !0), i.head.appendChild(t);
+        }
+        "undefined" != typeof Promise &&
+          ((o = "wpEmojiSettingsSupports"),
+          (s = ["flag", "emoji"]),
+          (n.supports = { everything: !0, everythingExceptFlag: !0 }),
+          (e = new Promise(function (e) {
+            i.addEventListener("DOMContentLoaded", e, { once: !0 });
+          })),
+          new Promise(function (t) {
+            var n = (function () {
+              try {
+                var e = JSON.parse(sessionStorage.getItem(o));
+                if (
+                  "object" == typeof e &&
+                  "number" == typeof e.timestamp &&
+                  new Date().valueOf() < e.timestamp + 604800 &&
+                  "object" == typeof e.supportTests
+                )
+                  return e.supportTests;
+              } catch (e) {}
+              return null;
+            })();
+            if (!n) {
+              if (
+                "undefined" != typeof Worker &&
+                "undefined" != typeof OffscreenCanvas &&
+                "undefined" != typeof URL &&
+                URL.createObjectURL &&
+                "undefined" != typeof Blob
+              )
+                try {
+                  var e =
+                      "postMessage(" +
+                      f.toString() +
+                      "(" +
+                      [JSON.stringify(s), u.toString(), p.toString()].join(
+                        ","
+                      ) +
+                      "));",
+                    r = new Blob([e], { type: "text/javascript" }),
+                    a = new Worker(URL.createObjectURL(r), {
+                      name: "wpTestEmojiSupports",
+                    });
+                  return void (a.onmessage = function (e) {
+                    c((n = e.data)), a.terminate(), t(n);
+                  });
+                } catch (e) {}
+              c((n = f(s, u, p)));
+            }
+            t(n);
+          })
+            .then(function (e) {
+              for (var t in e)
+                (n.supports[t] = e[t]),
+                  (n.supports.everything =
+                    n.supports.everything && n.supports[t]),
+                  "flag" !== t &&
+                    (n.supports.everythingExceptFlag =
+                      n.supports.everythingExceptFlag && n.supports[t]);
+              (n.supports.everythingExceptFlag =
+                n.supports.everythingExceptFlag && !n.supports.flag),
+                (n.DOMReady = !1),
+                (n.readyCallback = function () {
+                  n.DOMReady = !0;
+                });
+            })
+            .then(function () {
+              return e;
+            })
+            .then(function () {
+              var e;
+              n.supports.everything ||
+                (n.readyCallback(),
+                (e = n.source || {}).concatemoji
+                  ? t(e.concatemoji)
+                  : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)));
+            }));
+      })((window, document), window._wpemojiSettings);
+      /* ]]> */
+    </script>
+    <link
+      rel="stylesheet"
+      id="xpro-elementor-addons-widgets-css"
+      href="/wp-content/plugins/xpro-elementor-addons/assets/css/xpro-widgets.css?ver=1.4.6.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="xpro-elementor-addons-responsive-css"
+      href="/wp-content/plugins/xpro-elementor-addons/assets/css/xpro-responsive.css?ver=1.4.6.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="font-awesome-css"
+      href="/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=5.15.3"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="xpro-icons-css"
+      href="/wp-content/plugins/xpro-elementor-addons/assets/css/xpro-icons.min.css?ver=1.0.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="xpro-elementor-addons-pro-widgets-css"
+      href="/wp-content/plugins/xpro-elementor-addons-pro/assets/css/xpro-widgets.css?ver=1.4.6.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="xpro-elementor-addons-pro-responsive-css"
+      href="/wp-content/plugins/xpro-elementor-addons-pro/assets/css/xpro-responsive.css?ver=1.4.6.1"
+      type="text/css"
+      media="all"
+    />
+    <style id="wp-emoji-styles-inline-css" type="text/css">
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+    </style>
+    <style id="safe-svg-svg-icon-style-inline-css" type="text/css">
+      .safe-svg-cover {
+        text-align: center;
+      }
+      .safe-svg-cover .safe-svg-inside {
+        display: inline-block;
+        max-width: 100%;
+      }
+      .safe-svg-cover svg {
+        height: 100%;
+        max-height: 100%;
+        max-width: 100%;
+        width: 100%;
+      }
+    </style>
+    <style id="classic-theme-styles-inline-css" type="text/css">
+      /*! This file is auto-generated */
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+    <style id="global-styles-inline-css" type="text/css">
+      :root {
+        --wp--preset--aspect-ratio--square: 1;
+        --wp--preset--aspect-ratio--4-3: 4/3;
+        --wp--preset--aspect-ratio--3-4: 3/4;
+        --wp--preset--aspect-ratio--3-2: 3/2;
+        --wp--preset--aspect-ratio--2-3: 2/3;
+        --wp--preset--aspect-ratio--16-9: 16/9;
+        --wp--preset--aspect-ratio--9-16: 9/16;
+        --wp--preset--color--black: #000000;
+        --wp--preset--color--cyan-bluish-gray: #abb8c3;
+        --wp--preset--color--white: #ffffff;
+        --wp--preset--color--pale-pink: #f78da7;
+        --wp--preset--color--vivid-red: #cf2e2e;
+        --wp--preset--color--luminous-vivid-orange: #ff6900;
+        --wp--preset--color--luminous-vivid-amber: #fcb900;
+        --wp--preset--color--light-green-cyan: #7bdcb5;
+        --wp--preset--color--vivid-green-cyan: #00d084;
+        --wp--preset--color--pale-cyan-blue: #8ed1fc;
+        --wp--preset--color--vivid-cyan-blue: #0693e3;
+        --wp--preset--color--vivid-purple: #9b51e0;
+        --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+        );
+        --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+        );
+        --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+        );
+        --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+        );
+        --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+        );
+        --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+        );
+        --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+        );
+        --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+        );
+        --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+        );
+        --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+        );
+        --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+        );
+        --wp--preset--font-size--small: 13px;
+        --wp--preset--font-size--medium: 20px;
+        --wp--preset--font-size--large: 36px;
+        --wp--preset--font-size--x-large: 42px;
+        --wp--preset--spacing--20: 0.44rem;
+        --wp--preset--spacing--30: 0.67rem;
+        --wp--preset--spacing--40: 1rem;
+        --wp--preset--spacing--50: 1.5rem;
+        --wp--preset--spacing--60: 2.25rem;
+        --wp--preset--spacing--70: 3.38rem;
+        --wp--preset--spacing--80: 5.06rem;
+        --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+        --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+        --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1),
+          6px 6px rgba(0, 0, 0, 1);
+        --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+      }
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+      body .is-layout-flex {
+        display: flex;
+      }
+      .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .is-layout-flex > :is(*, div) {
+        margin: 0;
+      }
+      body .is-layout-grid {
+        display: grid;
+      }
+      .is-layout-grid > :is(*, div) {
+        margin: 0;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+      :root :where(.wp-block-pullquote) {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="contact-form-7-css"
+      href="/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.2"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="theplus-plus-extra-adv-plus-extra-adv-css"
+      href="//seals.army/wp-content/plugins/the-plus-addons-for-elementor-page-builder/assets/css/main/plus-extra-adv/plus-extra-adv.min.css?ver=1735434178"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="theplus-plus-shape-divider-shape-divider-css"
+      href="//seals.army/wp-content/plugins/theplus_elementor_addon/assets/css/main/shape-divider/plus-shape-divider.min.css?ver=1735434178"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-custom-css"
+      href="/wp-content/themes/nerko/assets/css/nerko-custom.css?ver=6.7.1"
+      type="text/css"
+      media="all"
+    />
+    <style id="nerko-custom-inline-css" type="text/css">
+      html:root {
+        --tg-theme-primary: #741ff5;
+      }
+      html:root {
+        --tg-theme-secondary: #e348ff;
+      }
+      html:root {
+        --tg-gradient-1: #2600fc;
+      }
+      html:root {
+        --tg-gradient-2: #ff00ea;
+      }
+      [tg-theme="dark"] body,
+      [tg-theme="dark"] .tgmobile__menu-box,
+      [tg-theme="dark"] .connect__modal .modal-content,
+      [tg-theme="dark"] .modal-backdrop,
+      [tg-theme="dark"] .sticky-menu::after {
+        background-color: #0f051d !important;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="bootstrap-css"
+      href="/wp-content/themes/nerko/assets/css/bootstrap.min.css?ver=6.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="animate-css"
+      href="/wp-content/plugins/xpro-elementor-addons/assets/vendor/css/animate.min.css?ver=3.4.0"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-fontAwesome-css"
+      href="/wp-content/themes/nerko/assets/css/fontawesome-all.min.css?ver=6.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="swiper-bundle-css"
+      href="/wp-content/themes/nerko/assets/css/swiper-bundle.min.css?ver=6.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-icons-css"
+      href="/wp-content/themes/nerko/assets/css/default-icons.css?ver=6.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="unicons-css"
+      href="/wp-content/themes/nerko/assets/css/unicons.css?ver=6.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-fonts-css"
+      href="/wp-content/themes/nerko/assets/css/fonts.css?ver=6.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-spacing-css"
+      href="/wp-content/themes/nerko/assets/css/spacing.css?ver=6.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-core-css"
+      href="/wp-content/themes/nerko/assets/css/nerko-core.css?ver=6.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-unit-css"
+      href="/wp-content/themes/nerko/assets/css/nerko-unit.css?ver=6.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="nerko-style-css"
+      href="/wp-content/themes/nerko/style.css?ver=6.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-frontend-css"
+      href="/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.26.3"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-7-css"
+      href="/wp-content/uploads/elementor/css/post-7.css?ver=1735434178"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="xpro-elementor-widgetarea-editor-css"
+      href="/wp-content/plugins/xpro-elementor-addons/inc/controls/assets/css/widgetarea-editor.css?ver=1.4.6.4"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-image-css"
+      href="/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.26.3"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-heading-css"
+      href="/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.26.3"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-spacer-css"
+      href="/wp-content/plugins/elementor/assets/css/widget-spacer.min.css?ver=3.26.3"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="e-animation-bounceInDown-css"
+      href="/wp-content/plugins/elementor/assets/lib/animations/styles/bounceInDown.min.css?ver=3.26.3"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="widget-text-editor-css"
+      href="/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css?ver=3.26.3"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-post-32-css"
+      href="/wp-content/uploads/elementor/css/post-32.css?ver=1735434178"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="google-fonts-1-css"
+      href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAlmarai%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.7.1"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="elementor-icons-tg-fontawesome-icons-css"
+      href="/wp-content/plugins/nerko-core/assets/css/fontawesome-all.min.css?ver=1.0.0"
+      type="text/css"
+      media="all"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+      id="jquery-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+      id="jquery-migrate-js"
+    ></script>
+    <link rel="https://api.w.org/" href="/wp-json/" />
+    <link
+      rel="alternate"
+      title="JSON"
+      type="application/json"
+      href="/wp-json/wp/v2/pages/32"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="/xmlrpc.php?rsd"
+    />
+    <meta name="generator" content="WordPress 6.7.1" />
+    <link rel="canonical" href="/" />
+    <link rel="shortlink" href="/" />
+    <link
+      rel="alternate"
+      title="oEmbed (JSON)"
+      type="application/json+oembed"
+      href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fseals.army%2F"
+    />
+    <link
+      rel="alternate"
+      title="oEmbed (XML)"
+      type="text/xml+oembed"
+      href="/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fseals.army%2F&#038;format=xml"
+    />
+    <meta
+      name="generator"
+      content="Elementor 3.26.3; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap"
+    />
+    <style>
+      .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload),
+      .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload)
+        * {
+        background-image: none !important;
+      }
+      @media screen and (max-height: 1024px) {
+        .e-con.e-parent:nth-of-type(n
+            + 3):not(.e-lazyloaded):not(.e-no-lazyload),
+        .e-con.e-parent:nth-of-type(n
+            + 3):not(.e-lazyloaded):not(.e-no-lazyload)
+          * {
+          background-image: none !important;
+        }
+      }
+      @media screen and (max-height: 640px) {
+        .e-con.e-parent:nth-of-type(n
+            + 2):not(.e-lazyloaded):not(.e-no-lazyload),
+        .e-con.e-parent:nth-of-type(n
+            + 2):not(.e-lazyloaded):not(.e-no-lazyload)
+          * {
+          background-image: none !important;
+        }
+      }
+    </style>
+    <style type="text/css">
+      .site-title,
+      .site-description {
+        position: absolute;
+        clip: rect(1px, 1px, 1px, 1px);
+      }
+    </style>
+    <link
+      rel="icon"
+      href="/wp-content/uploads/2024/12/logo.png"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="/wp-content/uploads/2024/12/cropped-TokenIcon-1-180x180.png"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="/wp-content/uploads/2024/12/cropped-TokenIcon-1-270x270.png"
+    />
+    <style type="text/css" id="wp-custom-css">
+      header.header-style-three {
+        display: none;
+      }
+    </style>
+    <style id="kirki-inline-styles"></style>
+  </head>
+
+  <body
+    class="home page-template page-template-elementor_header_footer page page-id-32 wp-custom-logo wp-embed-responsive no-sidebar elementor-default elementor-template-full-width elementor-kit-7 elementor-page elementor-page-32"
+  >
+    <!-- Dark/Light-toggle -->
+    <div class="darkmode-trigger d-none">
+      <label class="modeSwitch">
+        <input type="checkbox" />
+        <span class="icon"></span>
+      </label>
+    </div>
+    <!-- Dark/Light-toggle-end -->
+
+    <!-- header-area -->
+    <header class="header-style-three">
+      <div id="sticky-none" class="tg-header__area transparent-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="mobile-nav-toggler">
+                <i class="flaticon-menu-1"></i>
+              </div>
+              <div class="tgmenu__wrap">
+                <nav class="tgmenu__nav">
+                  <div class="logo">
+                    <a class="light-logo" href="/">
+                      <img
+                        src="/wp-content/uploads/2024/12/LogoSeals-1.png"
+                        height="auto"
+                        style="max-width: 120px"
+                        alt="Logo"
+                      />
+                    </a>
+                    <a class="dark-logo" href="/">
+                      <img
+                        src=""
+                        height="auto"
+                        style="max-width: 120px"
+                        alt="Logo"
+                      />
+                    </a>
+                  </div>
+                  <div
+                    class="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex"
+                  ></div>
+                  <div class="tgmenu__action">
+                    <ul class="list-wrap">
+                      <li class="header-social">
+                        <a
+                          href="#"
+                          data-bs-toggle="modal"
+                          data-bs-target="#connectModal"
+                          ><i class="fas fa-wallet"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+
+              <!-- Mobile Menu  -->
+              <div class="tgmobile__menu">
+                <nav class="tgmobile__menu-box">
+                  <div class="close-btn"><i class="flaticon-close-1"></i></div>
+                  <div class="nav-logo">
+                    <a class="light-logo" href="/">
+                      <img
+                        src=""
+                        height="auto"
+                        style="max-width: 120px"
+                        alt="Logo"
+                      />
+                    </a>
+
+                    <a class="dark-logo" href="/">
+                      <img
+                        src=""
+                        height="auto"
+                        style="max-width: 120px"
+                        alt="Logo"
+                      />
+                    </a>
+                  </div>
+                  <div class="tgmobile__menu-outer"></div>
+                </nav>
+              </div>
+              <div class="tgmobile__menu-backdrop"></div>
+              <!-- End Mobile Menu -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header-area-end -->
+
+    <!-- main-area -->
+    <main class="fix">
+      <div
+        data-elementor-type="wp-page"
+        data-elementor-id="32"
+        class="elementor elementor-32"
+        data-elementor-post-type="page"
+      >
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-6a6e910 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="6a6e910"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b2d1ed8"
+              data-id="b2d1ed8"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-c9beca3 elementor-widget elementor-widget-image"
+                  data-id="c9beca3"
+                  data-element_type="widget"
+                  data-widget_type="image.default"
+                >
+                  <div class="elementor-widget-container">
+                    <img
+                      fetchpriority="high"
+                      decoding="async"
+                      width="2444"
+                      height="1659"
+                      src="/wp-content/uploads/2024/12/4354343.jpg"
+                      class="attachment-full size-full wp-image-512"
+                      alt=""
+                      srcset="
+                        /wp-content/uploads/2024/12/4354343.jpg           2444w,
+                        /wp-content/uploads/2024/12/4354343-300x204.jpg    300w,
+                        /wp-content/uploads/2024/12/4354343-1024x695.jpg  1024w,
+                        /wp-content/uploads/2024/12/4354343-768x521.jpg    768w,
+                        /wp-content/uploads/2024/12/4354343-1536x1043.jpg 1536w,
+                        /wp-content/uploads/2024/12/4354343-2048x1390.jpg 2048w
+                      "
+                      sizes="(max-width: 2444px) 100vw, 2444px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-832b023 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="832b023"
+          data-element_type="section"
+          data-settings='{"background_background":"classic"}'
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8b17744"
+              data-id="8b17744"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-bae43a8 elementor-widget elementor-widget-image"
+                  data-id="bae43a8"
+                  data-element_type="widget"
+                  data-widget_type="image.default"
+                >
+                  <div class="elementor-widget-container">
+                    <img
+                      decoding="async"
+                      src="/wp-content/uploads/2024/12/Asset-1.svg"
+                      title=""
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-801e2d1 elementor-widget elementor-widget-brand"
+                  data-id="801e2d1"
+                  data-element_type="widget"
+                  data-widget_type="brand.default"
+                >
+                  <div class="elementor-widget-container">
+                    <!-- brand-area -->
+                    <div
+                      class="brand-area brand-style-two"
+                      data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 300;"
+                    >
+                      <div class="container">
+                        <div class="row justify-content-center">
+                          <div class="col-12">
+                            <div class="brand__list">
+                              <div class="brand__item">
+                                <a href="https://t.me/SealsArmy_Eth"
+                                  ><img
+                                    decoding="async"
+                                    src="/wp-content/uploads/2024/12/Telegram_2019_Logo.svg.png"
+                                    class="has-active-light"
+                                    alt=""
+                                /></a>
+                                <a href="https://t.me/SealsArmy_Eth"
+                                  ><img
+                                    decoding="async"
+                                    src=""
+                                    class="has-active-dark"
+                                    alt=""
+                                /></a>
+                              </div>
+                              <div class="brand__item">
+                                <a href="https://x.com/SealsArmy_eth"
+                                  ><img
+                                    decoding="async"
+                                    src="/wp-content/uploads/2024/12/X-Logo-768x432.png"
+                                    class="has-active-light"
+                                    alt=""
+                                /></a>
+                                <a href="https://x.com/SealsArmy_eth"
+                                  ><img
+                                    decoding="async"
+                                    src=""
+                                    class="has-active-dark"
+                                    alt=""
+                                /></a>
+                              </div>
+                              <div class="brand__item">
+                                <a
+                                  href="https://www.dextools.io/app/en/ether/pool-explorer/0x00000000000000000000000000000000000000"
+                                  ><img
+                                    decoding="async"
+                                    src="/wp-content/uploads/2024/12/432524.png"
+                                    class="has-active-light"
+                                    alt=""
+                                /></a>
+                                <a
+                                  href="https://www.dextools.io/app/en/ether/pool-explorer/0x00000000000000000000000000000000000000"
+                                  ><img
+                                    decoding="async"
+                                    src=""
+                                    class="has-active-dark"
+                                    alt=""
+                                /></a>
+                              </div>
+                              <div class="brand__item">
+                                <a
+                                  href="https://dexscreener.com/ethereum/0x00000000000000000000000000000000000000"
+                                  ><img
+                                    decoding="async"
+                                    src="/wp-content/uploads/2024/12/dark-66ad3c6be79f67571c0a4c2d_dexscreener-768x173.png"
+                                    class="has-active-light"
+                                    alt=""
+                                /></a>
+                                <a
+                                  href="https://dexscreener.com/ethereum/0x00000000000000000000000000000000000000"
+                                  ><img
+                                    decoding="async"
+                                    src=""
+                                    class="has-active-dark"
+                                    alt=""
+                                /></a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- brand-area-end -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-77c397b elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="77c397b"
+          data-element_type="section"
+          data-settings='{"background_background":"classic"}'
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0641af9"
+              data-id="0641af9"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-a053169 elementor-widget elementor-widget-heading"
+                  data-id="a053169"
+                  data-element_type="widget"
+                  data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateX_effect":"yes","motion_fx_translateX_speed":{"unit":"px","size":9.7,"sizes":[]},"motion_fx_translateX_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"motion_fx_devices":["desktop","tablet","mobile"]}'
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      THE MOST EPIC
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-78e63e7 elementor-widget elementor-widget-heading"
+                  data-id="78e63e7"
+                  data-element_type="widget"
+                  data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateX_effect":"yes","motion_fx_translateX_direction":"negative","motion_fx_translateX_speed":{"unit":"px","size":9.9,"sizes":[]},"motion_fx_translateX_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"motion_fx_devices":["desktop","tablet","mobile"]}'
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      BATTLE
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-12e8d01 elementor-widget elementor-widget-heading"
+                  data-id="12e8d01"
+                  data-element_type="widget"
+                  data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateX_effect":"yes","motion_fx_translateX_speed":{"unit":"px","size":9.6,"sizes":[]},"motion_fx_translateX_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"motion_fx_devices":["desktop","tablet","mobile"]}'
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      IN CRYPTO HISTORY
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-21eb9fc elementor-widget elementor-widget-heading"
+                  data-id="21eb9fc"
+                  data-element_type="widget"
+                  data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateX_effect":"yes","motion_fx_translateX_direction":"negative","motion_fx_translateX_speed":{"unit":"px","size":4,"sizes":[]},"motion_fx_translateX_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"motion_fx_devices":["desktop","tablet","mobile"]}'
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      IS FINALLY HERE.
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-c1eab16 elementor-widget elementor-widget-spacer"
+                  data-id="c1eab16"
+                  data-element_type="widget"
+                  data-widget_type="spacer.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div class="elementor-spacer">
+                      <div class="elementor-spacer-inner"></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-d9773a6 elementor-widget elementor-widget-heading"
+                  data-id="d9773a6"
+                  data-element_type="widget"
+                  data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_opacity_effect":"yes","motion_fx_scale_effect":"yes","motion_fx_scale_direction":"in-out","motion_fx_scale_speed":{"unit":"px","size":10,"sizes":[]},"motion_fx_scale_range":{"unit":"%","size":"","sizes":{"start":0,"end":60}},"motion_fx_opacity_direction":"out-in","motion_fx_opacity_level":{"unit":"px","size":10,"sizes":[]},"motion_fx_opacity_range":{"unit":"%","size":"","sizes":{"start":20,"end":80}},"motion_fx_devices":["desktop","tablet","mobile"]}'
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      SEALS
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-ef1a223 elementor-widget elementor-widget-heading"
+                  data-id="ef1a223"
+                  data-element_type="widget"
+                  data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_rotateZ_effect":"yes","motion_fx_rotateZ_direction":"negative","motion_fx_rotateZ_speed":{"unit":"px","size":0.8,"sizes":[]},"motion_fx_rotateZ_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":52}},"motion_fx_devices":["desktop","tablet","mobile"]}'
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      VS
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-98c39f8 e-flex e-con-boxed e-con e-parent"
+                  data-id="98c39f8"
+                  data-element_type="container"
+                >
+                  <div class="e-con-inner">
+                    <div
+                      class="elementor-element elementor-element-54e231d elementor-widget elementor-widget-image"
+                      data-id="54e231d"
+                      data-element_type="widget"
+                      data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateX_effect":"yes","motion_fx_translateX_direction":"negative","motion_fx_translateX_speed":{"unit":"px","size":9.5,"sizes":[]},"motion_fx_translateX_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"motion_fx_devices":["desktop","tablet","mobile"]}'
+                      data-widget_type="image.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <img
+                          decoding="async"
+                          width="600"
+                          height="600"
+                          src="/wp-content/uploads/2024/12/4334343.gif"
+                          class="attachment-full size-full wp-image-626"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-02272e1 animated-fast elementor-invisible elementor-widget elementor-widget-heading"
+                  data-id="02272e1"
+                  data-element_type="widget"
+                  data-settings='{"_animation":"bounceInDown"}'
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      PENGU(INS)
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-b7ef7d1 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="b7ef7d1"
+          data-element_type="section"
+          id="collection"
+          data-settings='{"background_background":"classic","xpro_backdrop_filter":"yes"}'
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6a5746e"
+              data-id="6a5746e"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap"></div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-a260c4a elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="a260c4a"
+          data-element_type="section"
+          data-settings='{"background_background":"classic"}'
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-49bbea4"
+              data-id="49bbea4"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-e06ea79 elementor-widget elementor-widget-tp-shape-divider"
+                  data-id="e06ea79"
+                  data-element_type="widget"
+                  data-widget_type="tp-shape-divider.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div
+                      id="shapee06ea79"
+                      class="tp-plus-shape-divider shape-wave shapee06ea79 shape-top"
+                      data-id="shapee06ea79"
+                      data-position="top"
+                      data-section-type="row"
+                    >
+                      <svg
+                        class="wave-items classic-color elementor-repeater-item-1f6a799"
+                        width="100%"
+                        height="0"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="wave"
+                        data-color="#9FDBEB"
+                        data-height="0"
+                        data-bones="4"
+                        data-amplitude="940"
+                        data-speed="0.15"
+                      >
+                        <defs></defs>
+                        <path id="wave-1f6a799" d="" /></svg
+                      ><svg
+                        class="wave-items classic-color elementor-repeater-item-d2a6dc5"
+                        width="100%"
+                        height="60"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="wave"
+                        data-color="#9FDBEB"
+                        data-height="60"
+                        data-bones="3"
+                        data-amplitude="136"
+                        data-speed="0.25"
+                      >
+                        <defs></defs>
+                        <path id="wave-d2a6dc5" d="" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-132cf65 elementor-section-full_width elementor-section-content-top elementor-section-height-default elementor-section-height-default"
+          data-id="132cf65"
+          data-element_type="section"
+          id="choose"
+          data-settings='{"background_background":"classic"}'
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ef95e45"
+              data-id="ef95e45"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-f4334c2 elementor-widget elementor-widget-heading"
+                  data-id="f4334c2"
+                  data-element_type="widget"
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      INTRODUCING
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-ea8c02e elementor-widget elementor-widget-image"
+                  data-id="ea8c02e"
+                  data-element_type="widget"
+                  data-widget_type="image.default"
+                >
+                  <div class="elementor-widget-container">
+                    <img
+                      decoding="async"
+                      src="/wp-content/uploads/2024/12/Asset-4.svg"
+                      title=""
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-f52af78 elementor-widget elementor-widget-heading"
+                  data-id="f52af78"
+                  data-element_type="widget"
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      SEALS AI:
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-bddd307 elementor-widget elementor-widget-heading"
+                  data-id="bddd307"
+                  data-element_type="widget"
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      A REVOLUTION IN<br />AI MEMETICS
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-f86d8b8 elementor-widget elementor-widget-heading"
+                  data-id="f86d8b8"
+                  data-element_type="widget"
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      CREATED BY ARTISTS. SCALED BY COMMUNITY.
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-844a137 e-flex e-con-boxed e-con e-parent"
+                  data-id="844a137"
+                  data-element_type="container"
+                >
+                  <div class="e-con-inner">
+                    <div
+                      class="elementor-element elementor-element-79a23ae elementor-widget elementor-widget-spacer"
+                      data-id="79a23ae"
+                      data-element_type="widget"
+                      data-widget_type="spacer.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <div class="elementor-spacer">
+                          <div class="elementor-spacer-inner"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-cfa960e elementor-widget elementor-widget-text-editor"
+                      data-id="cfa960e"
+                      data-element_type="widget"
+                      data-widget_type="text-editor.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <p>
+                          In 2021, Shiba Inu put the power of community-driven
+                          memecoins to the test—proving that a passionate,
+                          engaged audience can spark a revolution in Web3. By
+                          2025, we’ve carried forward the lessons learned. Enter
+                          Seals AI: a state-of-the-art, artist-trained image
+                          generator that empowers every member to craft original
+                          Seals artwork for memes and beyond. This marks a
+                          fusion of artist and community.. The floodgates of
+                          community driven meme creation are opening wider than
+                          ever before. Let’s flip the script together!
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-434b95c elementor-widget elementor-widget-spacer"
+                      data-id="434b95c"
+                      data-element_type="widget"
+                      data-widget_type="spacer.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <div class="elementor-spacer">
+                          <div class="elementor-spacer-inner"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-b840fe1 elementor-widget elementor-widget-xpro-image-marquee"
+                  data-id="b840fe1"
+                  data-element_type="widget"
+                  data-settings='{"image_marquee_item":[{"_id":"319e996","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/Gf1NnNWawAUQOIK.jpg","id":602,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"cb259e8","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/Gf1OhOSaIAAGOO1.jpg","id":601,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"278923b","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/Gf1N-10XoAAxKGl.jpg","id":600,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"97e9ff8","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/Gf1OK9pXwAALF0R.jpg","id":599,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"671b070","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/Gf1OMKuXQAA1KvN.jpg","id":598,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"9d61a4d","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-27_05-36-47.jpg","id":595,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"e0dae63","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-27_05-36-47-2.jpg","id":594,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"458da40","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-27_05-36-48.jpg","id":597,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"e897ff6","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-27_04-46-50-3.jpg","id":588,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"b5e0cd8","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-27_04-46-52.jpg","id":592,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"}]}'
+                  data-widget_type="xpro-image-marquee.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div
+                      class="xpro-img-marquee-wrapper xpro-img-marquee-horizontal"
+                    >
+                      <div class="xpro-img-marquee-inner">
+                        <div class="xpro-img-marquee-media xpro-animate-left">
+                          <img
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/Gf1NnNWawAUQOIK.jpg"
+                            class="attachment-full size-full wp-image-602"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/Gf1NnNWawAUQOIK.jpg         1024w,
+                              /wp-content/uploads/2024/12/Gf1NnNWawAUQOIK-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/Gf1NnNWawAUQOIK-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/Gf1NnNWawAUQOIK-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/Gf1NnNWawAUQOIK-700x700.jpg  700w
+                            "
+                            sizes="(max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/Gf1OhOSaIAAGOO1.jpg"
+                            class="attachment-full size-full wp-image-601"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/Gf1OhOSaIAAGOO1.jpg         1024w,
+                              /wp-content/uploads/2024/12/Gf1OhOSaIAAGOO1-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/Gf1OhOSaIAAGOO1-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/Gf1OhOSaIAAGOO1-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/Gf1OhOSaIAAGOO1-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/Gf1N-10XoAAxKGl.jpg"
+                            class="attachment-full size-full wp-image-600"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/Gf1N-10XoAAxKGl.jpg         1024w,
+                              /wp-content/uploads/2024/12/Gf1N-10XoAAxKGl-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/Gf1N-10XoAAxKGl-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/Gf1N-10XoAAxKGl-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/Gf1N-10XoAAxKGl-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/Gf1OK9pXwAALF0R.jpg"
+                            class="attachment-full size-full wp-image-599"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/Gf1OK9pXwAALF0R.jpg         1024w,
+                              /wp-content/uploads/2024/12/Gf1OK9pXwAALF0R-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/Gf1OK9pXwAALF0R-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/Gf1OK9pXwAALF0R-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/Gf1OK9pXwAALF0R-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/Gf1OMKuXQAA1KvN.jpg"
+                            class="attachment-full size-full wp-image-598"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/Gf1OMKuXQAA1KvN.jpg         1024w,
+                              /wp-content/uploads/2024/12/Gf1OMKuXQAA1KvN-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/Gf1OMKuXQAA1KvN-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/Gf1OMKuXQAA1KvN-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/Gf1OMKuXQAA1KvN-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-27_05-36-47.jpg"
+                            class="attachment-full size-full wp-image-595"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-2.jpg"
+                            class="attachment-full size-full wp-image-594"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-2.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-2-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-2-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-2-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-2-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-27_05-36-48.jpg"
+                            class="attachment-full size-full wp-image-597"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-27_04-46-50-3.jpg"
+                            class="attachment-full size-full wp-image-588"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-50-3.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-50-3-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-50-3-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-50-3-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-50-3-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-27_04-46-52.jpg"
+                            class="attachment-full size-full wp-image-592"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-52.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-52-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-52-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-52-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-52-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+                        </div>
+
+                        <div
+                          class="xpro-img-marquee-media xpro-animate-left-copy"
+                        >
+                          <img
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/Gf1NnNWawAUQOIK.jpg"
+                            class="attachment-full size-full wp-image-602"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/Gf1NnNWawAUQOIK.jpg         1024w,
+                              /wp-content/uploads/2024/12/Gf1NnNWawAUQOIK-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/Gf1NnNWawAUQOIK-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/Gf1NnNWawAUQOIK-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/Gf1NnNWawAUQOIK-700x700.jpg  700w
+                            "
+                            sizes="(max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/Gf1OhOSaIAAGOO1.jpg"
+                            class="attachment-full size-full wp-image-601"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/Gf1OhOSaIAAGOO1.jpg         1024w,
+                              /wp-content/uploads/2024/12/Gf1OhOSaIAAGOO1-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/Gf1OhOSaIAAGOO1-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/Gf1OhOSaIAAGOO1-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/Gf1OhOSaIAAGOO1-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/Gf1N-10XoAAxKGl.jpg"
+                            class="attachment-full size-full wp-image-600"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/Gf1N-10XoAAxKGl.jpg         1024w,
+                              /wp-content/uploads/2024/12/Gf1N-10XoAAxKGl-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/Gf1N-10XoAAxKGl-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/Gf1N-10XoAAxKGl-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/Gf1N-10XoAAxKGl-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/Gf1OK9pXwAALF0R.jpg"
+                            class="attachment-full size-full wp-image-599"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/Gf1OK9pXwAALF0R.jpg         1024w,
+                              /wp-content/uploads/2024/12/Gf1OK9pXwAALF0R-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/Gf1OK9pXwAALF0R-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/Gf1OK9pXwAALF0R-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/Gf1OK9pXwAALF0R-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/Gf1OMKuXQAA1KvN.jpg"
+                            class="attachment-full size-full wp-image-598"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/Gf1OMKuXQAA1KvN.jpg         1024w,
+                              /wp-content/uploads/2024/12/Gf1OMKuXQAA1KvN-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/Gf1OMKuXQAA1KvN-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/Gf1OMKuXQAA1KvN-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/Gf1OMKuXQAA1KvN-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-27_05-36-47.jpg"
+                            class="attachment-full size-full wp-image-595"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-2.jpg"
+                            class="attachment-full size-full wp-image-594"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-2.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-2-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-2-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-2-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-47-2-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-27_05-36-48.jpg"
+                            class="attachment-full size-full wp-image-597"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-27_04-46-50-3.jpg"
+                            class="attachment-full size-full wp-image-588"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-50-3.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-50-3-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-50-3-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-50-3-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-50-3-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-27_04-46-52.jpg"
+                            class="attachment-full size-full wp-image-592"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-52.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-52-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-52-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-52-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_04-46-52-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-4b48c31 elementor-widget elementor-widget-xpro-image-marquee"
+                  data-id="4b48c31"
+                  data-element_type="widget"
+                  data-settings='{"image_marquee_item":[{"_id":"319e996","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-27_05-36-48-2.jpg","id":596,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"cb259e8","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-23_09-50-38.jpg","id":564,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"278923b","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-24_02-08-16.jpg","id":573,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"97e9ff8","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-24_02-06-09.jpg","id":571,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"671b070","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-24_02-10-17.jpg","id":574,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"9d61a4d","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-25_21-06-08.jpg","id":580,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"e0dae63","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-25_19-28-32.jpg","id":577,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"458da40","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-25_21-06-07.jpg","id":578,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"e897ff6","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-24_02-10-51.jpg","id":575,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"}]}'
+                  data-widget_type="xpro-image-marquee.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div
+                      class="xpro-img-marquee-wrapper xpro-img-marquee-horizontal"
+                    >
+                      <div class="xpro-img-marquee-inner">
+                        <div class="xpro-img-marquee-media xpro-animate-right">
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-2.jpg"
+                            class="attachment-full size-full wp-image-596"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-2.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-2-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-2-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-2-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-2-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-23_09-50-38.jpg"
+                            class="attachment-full size-full wp-image-564"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_02-08-16.jpg"
+                            class="attachment-full size-full wp-image-573"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_02-06-09.jpg"
+                            class="attachment-full size-full wp-image-571"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-06-09.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-06-09-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-06-09-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-06-09-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-06-09-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_02-10-17.jpg"
+                            class="attachment-full size-full wp-image-574"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-17.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-17-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-17-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-17-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-17-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-25_21-06-08.jpg"
+                            class="attachment-full size-full wp-image-580"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-08.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-08-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-08-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-08-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-08-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-25_19-28-32.jpg"
+                            class="attachment-full size-full wp-image-577"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-25_19-28-32.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_19-28-32-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_19-28-32-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_19-28-32-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_19-28-32-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-25_21-06-07.jpg"
+                            class="attachment-full size-full wp-image-578"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-07.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-07-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-07-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-07-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-07-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_02-10-51.jpg"
+                            class="attachment-full size-full wp-image-575"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-51.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-51-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-51-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-51-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-51-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+                        </div>
+
+                        <div
+                          class="xpro-img-marquee-media xpro-animate-right-copy"
+                        >
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-2.jpg"
+                            class="attachment-full size-full wp-image-596"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-2.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-2-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-2-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-2-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-27_05-36-48-2-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-23_09-50-38.jpg"
+                            class="attachment-full size-full wp-image-564"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_02-08-16.jpg"
+                            class="attachment-full size-full wp-image-573"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_02-06-09.jpg"
+                            class="attachment-full size-full wp-image-571"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-06-09.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-06-09-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-06-09-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-06-09-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-06-09-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_02-10-17.jpg"
+                            class="attachment-full size-full wp-image-574"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-17.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-17-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-17-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-17-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-17-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-25_21-06-08.jpg"
+                            class="attachment-full size-full wp-image-580"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-08.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-08-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-08-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-08-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-08-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-25_19-28-32.jpg"
+                            class="attachment-full size-full wp-image-577"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-25_19-28-32.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_19-28-32-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_19-28-32-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_19-28-32-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_19-28-32-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-25_21-06-07.jpg"
+                            class="attachment-full size-full wp-image-578"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-07.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-07-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-07-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-07-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-25_21-06-07-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_02-10-51.jpg"
+                            class="attachment-full size-full wp-image-575"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-51.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-51-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-51-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-51-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-10-51-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-db0e3e8 elementor-widget elementor-widget-xpro-image-marquee"
+                  data-id="db0e3e8"
+                  data-element_type="widget"
+                  data-settings='{"image_marquee_item":[{"_id":"319e996","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-22_03-07-50.jpg","id":563,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"cb259e8","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-23_09-50-38.jpg","id":564,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"278923b","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-24_01-41-22.jpg","id":565,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"97e9ff8","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-24_01-41-52.jpg","id":566,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"671b070","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-24_01-44-56.jpg","id":567,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"9d61a4d","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-24_02-00-45.jpg","id":569,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"e0dae63","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-24_02-04-08.jpg","id":570,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"458da40","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-24_02-08-16.jpg","id":573,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"},{"_id":"e897ff6","image_marquee":{"url":"https:\/\/seals.army\/wp-content\/uploads\/2024\/12\/photo_2024-12-24_03-21-57.jpg","id":576,"size":"","alt":"","source":"library"},"marquee_media_thumbnail_size":"full"}]}'
+                  data-widget_type="xpro-image-marquee.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div
+                      class="xpro-img-marquee-wrapper xpro-img-marquee-horizontal"
+                    >
+                      <div class="xpro-img-marquee-inner">
+                        <div class="xpro-img-marquee-media xpro-animate-left">
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-22_03-07-50.jpg"
+                            class="attachment-full size-full wp-image-563"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-22_03-07-50.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-22_03-07-50-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-22_03-07-50-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-22_03-07-50-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-22_03-07-50-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-23_09-50-38.jpg"
+                            class="attachment-full size-full wp-image-564"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_01-41-22.jpg"
+                            class="attachment-full size-full wp-image-565"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-22.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-22-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-22-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-22-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-22-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_01-41-52.jpg"
+                            class="attachment-full size-full wp-image-566"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-52.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-52-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-52-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-52-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-52-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_01-44-56.jpg"
+                            class="attachment-full size-full wp-image-567"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-44-56.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-44-56-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-44-56-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-44-56-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-44-56-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_02-00-45.jpg"
+                            class="attachment-full size-full wp-image-569"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-00-45.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-00-45-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-00-45-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-00-45-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-00-45-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_02-04-08.jpg"
+                            class="attachment-full size-full wp-image-570"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-04-08.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-04-08-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-04-08-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-04-08-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-04-08-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_02-08-16.jpg"
+                            class="attachment-full size-full wp-image-573"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_03-21-57.jpg"
+                            class="attachment-full size-full wp-image-576"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_03-21-57.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_03-21-57-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_03-21-57-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_03-21-57-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_03-21-57-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+                        </div>
+
+                        <div
+                          class="xpro-img-marquee-media xpro-animate-left-copy"
+                        >
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-22_03-07-50.jpg"
+                            class="attachment-full size-full wp-image-563"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-22_03-07-50.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-22_03-07-50-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-22_03-07-50-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-22_03-07-50-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-22_03-07-50-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-23_09-50-38.jpg"
+                            class="attachment-full size-full wp-image-564"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-23_09-50-38-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_01-41-22.jpg"
+                            class="attachment-full size-full wp-image-565"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-22.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-22-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-22-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-22-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-22-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_01-41-52.jpg"
+                            class="attachment-full size-full wp-image-566"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-52.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-52-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-52-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-52-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-41-52-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_01-44-56.jpg"
+                            class="attachment-full size-full wp-image-567"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-44-56.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-44-56-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-44-56-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-44-56-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_01-44-56-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_02-00-45.jpg"
+                            class="attachment-full size-full wp-image-569"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-00-45.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-00-45-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-00-45-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-00-45-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-00-45-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_02-04-08.jpg"
+                            class="attachment-full size-full wp-image-570"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-04-08.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-04-08-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-04-08-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-04-08-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-04-08-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_02-08-16.jpg"
+                            class="attachment-full size-full wp-image-573"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_02-08-16-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+
+                          <img
+                            loading="lazy"
+                            decoding="async"
+                            width="1024"
+                            height="1024"
+                            src="/wp-content/uploads/2024/12/photo_2024-12-24_03-21-57.jpg"
+                            class="attachment-full size-full wp-image-576"
+                            alt=""
+                            srcset="
+                              /wp-content/uploads/2024/12/photo_2024-12-24_03-21-57.jpg         1024w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_03-21-57-300x300.jpg  300w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_03-21-57-150x150.jpg  150w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_03-21-57-768x768.jpg  768w,
+                              /wp-content/uploads/2024/12/photo_2024-12-24_03-21-57-700x700.jpg  700w
+                            "
+                            sizes="auto, (max-width: 1024px) 100vw, 1024px"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-a73c11b e-flex e-con-boxed e-con e-parent"
+                  data-id="a73c11b"
+                  data-element_type="container"
+                >
+                  <div class="e-con-inner">
+                    <div
+                      class="elementor-element elementor-element-b182c87 elementor-widget elementor-widget-spacer"
+                      data-id="b182c87"
+                      data-element_type="widget"
+                      data-widget_type="spacer.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <div class="elementor-spacer">
+                          <div class="elementor-spacer-inner"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-aa19a0e elementor-widget elementor-widget-heading"
+                      data-id="aa19a0e"
+                      data-element_type="widget"
+                      data-widget_type="heading.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <h2
+                          class="elementor-heading-title elementor-size-default"
+                        >
+                          TRY IT YOURSELF: Create a Meme using Seals AI:
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-5338125 elementor-view-default elementor-widget elementor-widget-icon"
+                  data-id="5338125"
+                  data-element_type="widget"
+                  data-widget_type="icon.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div class="elementor-icon-wrapper">
+                      <div class="elementor-icon">
+                        <i aria-hidden="true" class="fal fa-arrow-down"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-56970e2 elementor-widget elementor-widget-xpro-creative-button"
+                  data-id="56970e2"
+                  data-element_type="widget"
+                  data-settings='{"layout":"5"}'
+                  data-widget_type="xpro-creative-button.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div
+                      class="xpro-creative-btn-wrapper xpro-creative-btn-layout-5 xpro-align-icon-left"
+                    >
+                      <a
+                        href="https://t.me/SealsArmy_Eth"
+                        class="xpro-creative-btn"
+                      >
+                        <svg
+                          class="xpro-creative-btn-text-circle"
+                          viewBox="0 0 500 500"
+                        >
+                          <defs>
+                            <path
+                              id="textcircle"
+                              d="M250,400 a150,150 0 0,1 0,-300a150,150 0 0,1 0,300Z"
+                            ></path>
+                          </defs>
+                          <text>
+                            <textPath
+                              xlink:href="#textcircle"
+                              aria-label="Projects &amp; client work 2020"
+                              textLength="900"
+                            >
+                              JOIN THE TELEGRAM
+                            </textPath>
+                          </text>
+                        </svg>
+
+                        <div class="xpro-creative-btn-media">
+                          <svg
+                            aria-hidden="true"
+                            class="e-font-icon-svg e-fab-telegram"
+                            viewBox="0 0 496 512"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-a079997 elementor-widget elementor-widget-spacer"
+                  data-id="a079997"
+                  data-element_type="widget"
+                  data-widget_type="spacer.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div class="elementor-spacer">
+                      <div class="elementor-spacer-inner"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-b40536e elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="b40536e"
+          data-element_type="section"
+          data-settings='{"background_background":"classic"}'
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3790994"
+              data-id="3790994"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-791a0c6 elementor-widget elementor-widget-tp-shape-divider"
+                  data-id="791a0c6"
+                  data-element_type="widget"
+                  data-widget_type="tp-shape-divider.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div
+                      id="shape791a0c6"
+                      class="tp-plus-shape-divider shape-wave shape791a0c6 shape-top"
+                      data-id="shape791a0c6"
+                      data-position="top"
+                      data-section-type="row"
+                    >
+                      <svg
+                        class="wave-items classic-color elementor-repeater-item-56104d0"
+                        width="100%"
+                        height="216"
+                        version="1.1"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="wave"
+                        data-color="#FFFFFF"
+                        data-height="216"
+                        data-bones="2"
+                        data-amplitude="164"
+                        data-speed="0.15"
+                      >
+                        <defs></defs>
+                        <path id="wave-56104d0" d="" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-6ba50e1 elementor-widget elementor-widget-image"
+                  data-id="6ba50e1"
+                  data-element_type="widget"
+                  data-widget_type="image.default"
+                >
+                  <div class="elementor-widget-container">
+                    <img
+                      decoding="async"
+                      src="/wp-content/uploads/2024/12/salute1.png"
+                      title="salute1"
+                      alt="salute1"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-3b3c63e elementor-widget elementor-widget-heading"
+                  data-id="3b3c63e"
+                  data-element_type="widget"
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      SEALS REPORTING FOR DUTY
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-02375f6 elementor-widget elementor-widget-tp-fact"
+                  data-id="02375f6"
+                  data-element_type="widget"
+                  data-widget_type="tp-fact.default"
+                >
+                  <div class="elementor-widget-container">
+                    <!-- fact-area -->
+                    <section class="fact-area fact-style-three">
+                      <div class="container">
+                        <div class="fact__items-wrap position-relative">
+                          <div
+                            class="row justify-content-center"
+                            data-anime="targets: > *; opacity:[0, 1]; scale:[0.5, 1]; onview: -250; delay: anime.stagger(100);"
+                          >
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                              <div class="fact__item text-center">
+                                <h2 class="fact__count">0</h2>
+
+                                <span class="meta">Holders On Eth</span>
+                              </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-sm-6">
+                              <div class="fact__item text-center">
+                                <h2 class="fact__count">0</h2>
+
+                                <span class="meta">Telegram Members</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                    <!-- fact-area-end -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-1b7285e elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="1b7285e"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ed12e8b"
+              data-id="ed12e8b"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap"></div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-5a8872a elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="5a8872a"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dde5cbc"
+              data-id="dde5cbc"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-fa716d9 elementor-widget elementor-widget-image"
+                  data-id="fa716d9"
+                  data-element_type="widget"
+                  data-widget_type="image.default"
+                >
+                  <div class="elementor-widget-container">
+                    <img
+                      decoding="async"
+                      src="/wp-content/uploads/2024/12/Asset45.svg"
+                      title=""
+                      alt=""
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-a2d7def elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="a2d7def"
+          data-element_type="section"
+          id="roadmap"
+          data-settings='{"background_background":"classic"}'
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-05f503c"
+              data-id="05f503c"
+              data-element_type="column"
+              data-settings='{"xpro_backdrop_filter":"yes"}'
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-a6ad3df elementor-widget elementor-widget-heading"
+                  data-id="a6ad3df"
+                  data-element_type="widget"
+                  data-widget_type="heading.default"
+                >
+                  <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default">
+                      SEALMAP
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-a49fb00 elementor-widget__width-inherit elementor-widget elementor-widget-image"
+                  data-id="a49fb00"
+                  data-element_type="widget"
+                  data-widget_type="image.default"
+                >
+                  <div class="elementor-widget-container">
+                    <img
+                      decoding="async"
+                      src="/wp-content/uploads/2024/12/4356546.png"
+                      title="4356546"
+                      alt="4356546"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-55a3e0c elementor-widget elementor-widget-roadmap"
+                  data-id="55a3e0c"
+                  data-element_type="widget"
+                  data-widget_type="roadmap.default"
+                >
+                  <div class="elementor-widget-container">
+                    <script>
+                      jQuery(document).ready(function ($) {
+                        /*=============================================
+                        =        RoadMap Active		      =
+                    =============================================*/
+                        var roadSwiper = new Swiper(".roadmap__active", {
+                          // Optional parameters
+                          loop: false,
+                          slidesPerView: 1,
+                          spaceBetween: 32,
+                          breakpoints: {
+                            1500: {
+                              slidesPerView: 1,
+                            },
+                            1200: {
+                              slidesPerView: 1,
+                            },
+                            992: {
+                              slidesPerView: 1,
+                            },
+                            768: {
+                              slidesPerView: 1,
+                            },
+                            576: {
+                              slidesPerView: 1,
+                            },
+                            0: {
+                              slidesPerView: 1,
+                            },
+                          },
+                          pagination: {
+                            el: ".tg-swiper-scrollbar",
+                            type: "progressbar",
+                          },
+                          // Navigation arrows
+                          navigation: {
+                            nextEl: ".tg-swiper-next",
+                            prevEl: ".tg-swiper-prev",
+                          },
+                        });
+                      });
+                    </script>
+
+                    <!-- roadmap-area -->
+                    <section class="roadmap-area">
+                      <div class="container">
+                        <div
+                          class="roadmap__wrapper"
+                          data-anime="opacity:[0, 1]; translateY:[24, 0]; onview: true; delay: 200;"
+                        >
+                          <div class="swiper roadmap__active">
+                            <div
+                              class="swiper-wrapper"
+                              data-anime="targets: > * > *; opacity:[0, 1]; scale:[0.5, 1]; onview: -400; delay: anime.stagger(200);"
+                            >
+                              <div class="swiper-slide">
+                                <div class="roadmap__card">
+                                  <div class="roadmap__percent">100%</div>
+
+                                  <div class="roadmap__step">
+                                    <span class="tg-text-gradient d-inline-flex"
+                                      >Launch</span
+                                    >
+                                  </div>
+
+                                  <h3 class="roadmap__heading">
+                                    Launch - COMPLETE
+                                  </h3>
+
+                                  <p>
+                                    Transform and launch seals into the world,
+                                    showcasing them with world-class graphics,
+                                    exceptional character design, and a strong,
+                                    memorable branding strategy.
+                                  </p>
+
+                                  <ul class="roadmap__lists list-wrap">
+                                    <li>
+                                      <i
+                                        class="unicon-checkmark-outline tg-text-gradient d-inline-flex"
+                                      ></i>
+                                      Deploy Token
+                                    </li>
+
+                                    <li>
+                                      <i
+                                        class="unicon-checkmark-outline tg-text-gradient d-inline-flex"
+                                      ></i>
+                                      Launch Website Landing Page
+                                    </li>
+
+                                    <li>
+                                      <i
+                                        class="unicon-checkmark-outline tg-text-gradient d-inline-flex"
+                                      ></i>
+                                      Reveal Branding and Character
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="roadmap__card">
+                                  <div class="roadmap__percent">100%</div>
+
+                                  <div class="roadmap__step">
+                                    <span class="tg-text-gradient d-inline-flex"
+                                      >Phase 02</span
+                                    >
+                                  </div>
+
+                                  <h3 class="roadmap__heading">
+                                    Initial Growth - COMPLETE
+                                  </h3>
+
+                                  <p>
+                                    They say the first 1000 community members
+                                    are your most important. The goal is to
+                                    establish a strong community from the get
+                                    go.
+                                  </p>
+
+                                  <ul class="roadmap__lists list-wrap">
+                                    <li>
+                                      <i
+                                        class="unicon-checkmark-outline tg-text-gradient d-inline-flex"
+                                      ></i>
+                                      First 1000 members
+                                    </li>
+
+                                    <li>
+                                      <i
+                                        class="unicon-checkmark-outline tg-text-gradient d-inline-flex"
+                                      ></i>
+                                      Twitter Growth
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="roadmap__card">
+                                  <div class="roadmap__percent">100%</div>
+
+                                  <div class="roadmap__step">
+                                    <span class="tg-text-gradient d-inline-flex"
+                                      >Phase 03</span
+                                    >
+                                  </div>
+
+                                  <h3 class="roadmap__heading">
+                                    Art Production - COMPLETE
+                                  </h3>
+
+                                  <p>
+                                    A memecoins central premise is... memes! The
+                                    goal is to create a meme machine. So here we
+                                    will be ramping up art development through
+                                    the creation of memes art to begin spreading
+                                    the seals story to the world!
+                                  </p>
+
+                                  <ul class="roadmap__lists list-wrap">
+                                    <li>
+                                      <i
+                                        class="unicon-checkmark-outline tg-text-gradient d-inline-flex"
+                                      ></i>
+                                      Meme Creation
+                                    </li>
+
+                                    <li>
+                                      <i
+                                        class="unicon-checkmark-outline tg-text-gradient d-inline-flex"
+                                      ></i>
+                                      Meme Competiton's
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="roadmap__card">
+                                  <div class="roadmap__percent">100%</div>
+
+                                  <div class="roadmap__step">
+                                    <span class="tg-text-gradient d-inline-flex"
+                                      >Phase 03</span
+                                    >
+                                  </div>
+
+                                  <h3 class="roadmap__heading">
+                                    Seals AI Meme Maker Bot - COMPLETE
+                                  </h3>
+
+                                  <p>
+                                    Seals AI Bot, empowering the community like
+                                    never before in this pioneering AI memetics
+                                    experiment
+                                  </p>
+
+                                  <ul class="roadmap__lists list-wrap">
+                                    <li>
+                                      <i
+                                        class="unicon-checkmark-outline tg-text-gradient d-inline-flex"
+                                      ></i>
+                                      Train and Develop Bot
+                                    </li>
+
+                                    <li>
+                                      <i
+                                        class="unicon-checkmark-outline tg-text-gradient d-inline-flex"
+                                      ></i>
+                                      Testing
+                                    </li>
+
+                                    <li>
+                                      <i
+                                        class="unicon-checkmark-outline tg-text-gradient d-inline-flex"
+                                      ></i>
+                                      Release to community
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="roadmap__card">
+                                  <div class="roadmap__step">
+                                    <span class="tg-text-gradient d-inline-flex"
+                                      >Phase 05</span
+                                    >
+                                  </div>
+
+                                  <h3 class="roadmap__heading">Growth</h3>
+
+                                  <p>
+                                    Memecoins are fundamentally rooted in the
+                                    power of community engagement and
+                                    collaboration. The primary objective here is
+                                    to continue expanding and strengthening the
+                                    seals community, striving to be recognized
+                                    as one of the top memecoins on the Ethereum
+                                    blockchain! Together, we can achieve great
+                                    things and make a significant impact in the
+                                    world of cryptocurrencies.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- Pagination -->
+                          <div class="tg-swiper-scrollbar"></div>
+
+                          <!-- Navigation -->
+                          <a
+                            aria-label="Prev"
+                            href="#prev"
+                            class="tg-swiper-prev"
+                            ><i class="fas fa-chevron-left"></i
+                          ></a>
+                          <a
+                            aria-label="Next"
+                            href="#next"
+                            class="tg-swiper-next"
+                            ><i class="fas fa-chevron-right"></i
+                          ></a>
+                        </div>
+                      </div>
+                    </section>
+                    <!-- roadmap-area-end -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div
+          class="elementor-element elementor-element-d7ebcd1 e-con-full e-flex e-con e-parent"
+          data-id="d7ebcd1"
+          data-element_type="container"
+          data-settings='{"background_background":"classic","xpro_backdrop_filter":"yes"}'
+        >
+          <div
+            class="elementor-element elementor-element-b6e4990 elementor-widget elementor-widget-tp-shape-divider"
+            data-id="b6e4990"
+            data-element_type="widget"
+            data-widget_type="tp-shape-divider.default"
+          >
+            <div class="elementor-widget-container">
+              <div
+                id="shapeb6e4990"
+                class="tp-plus-shape-divider shape-wave shapeb6e4990 shape-bottom"
+                data-id="shapeb6e4990"
+                data-position="bottom"
+                data-section-type="row"
+              >
+                <svg
+                  class="wave-items classic-color elementor-repeater-item-4ba52f7"
+                  width="100%"
+                  height="80"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="wave"
+                  data-color="#1A2553"
+                  data-height="80"
+                  data-bones="4"
+                  data-amplitude="60"
+                  data-speed="0.15"
+                >
+                  <defs></defs>
+                  <path id="wave-4ba52f7" d="" /></svg
+                ><svg
+                  class="wave-items classic-color elementor-repeater-item-6611db3"
+                  width="100%"
+                  height="216"
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="wave"
+                  data-color="#1A2553"
+                  data-height="216"
+                  data-bones="3"
+                  data-amplitude="304"
+                  data-speed="0.25"
+                >
+                  <defs></defs>
+                  <path id="wave-6611db3" d="" />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-cd6150f elementor-widget elementor-widget-spacer"
+            data-id="cd6150f"
+            data-element_type="widget"
+            data-widget_type="spacer.default"
+          >
+            <div class="elementor-widget-container">
+              <div class="elementor-spacer">
+                <div class="elementor-spacer-inner"></div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-85ffb88 elementor-widget elementor-widget-xpro-text-marquee"
+            data-id="85ffb88"
+            data-element_type="widget"
+            data-settings='{"text_marquee_item":[{"text_marquee":"JOIN THE SEALS ARMY","_id":"9bf75ca"},{"text_marquee":"JOIN THE SEALS ARMY","_id":"0834391"},{"text_marquee":"JOIN THE SEALS ARMY","_id":"1971f30"},{"text_marquee":"JOIN THE SEALS ARMY","_id":"9c52c86"},{"text_marquee":"JOIN THE SEALS ARMY","_id":"20ac824"},{"text_marquee":"JOIN THE SEALS ARMY","_id":"f5b86d5"},{"text_marquee":"JOIN THE SEALS ARMY","_id":"f1cee26"},{"text_marquee":"JOIN THE SEALS ARMY","_id":"aae8f38"},{"text_marquee":"JOIN THE SEALS ARMY","_id":"6f326c2"},{"text_marquee":"JOIN THE SEALS ARMY","_id":"0031e94"},{"text_marquee":"JOIN THE SEALS ARMY","_id":"7add61f"},{"text_marquee":"JOIN THE SEALS ARMY","_id":"dc2171c"},{"text_marquee":"JOIN THE SEALS ARMY","_id":"5fbfed4"},{"text_marquee":"JOIN THE SEALS ARMY","_id":"62092ca"}]}'
+            data-widget_type="xpro-text-marquee.default"
+          >
+            <div class="elementor-widget-container">
+              <div class="xpro-text-marquee-wrapper">
+                <div class="xpro-text-marquee-inner">
+                  <div class="xpro-text-marquee-media xpro-animate-right">
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+
+                    <span class="xpro-text-marquee-txt"
+                      >JOIN THE SEALS ARMY</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-a651258 elementor-widget elementor-widget-image"
+            data-id="a651258"
+            data-element_type="widget"
+            data-settings='{"motion_fx_motion_fx_scrolling":"yes","motion_fx_translateX_effect":"yes","motion_fx_translateX_speed":{"unit":"px","size":9.5,"sizes":[]},"motion_fx_rotateZ_effect":"yes","motion_fx_rotateZ_speed":{"unit":"px","size":1.5,"sizes":[]},"motion_fx_translateX_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"motion_fx_rotateZ_affectedRange":{"unit":"%","size":"","sizes":{"start":0,"end":100}},"motion_fx_devices":["desktop","tablet","mobile"]}'
+            data-widget_type="image.default"
+          >
+            <div class="elementor-widget-container">
+              <img
+                loading="lazy"
+                decoding="async"
+                width="640"
+                height="581"
+                src="/wp-content/uploads/2024/12/142543r43-1024x930.png"
+                class="attachment-large size-large wp-image-627"
+                alt=""
+                srcset="
+                  /wp-content/uploads/2024/12/142543r43-1024x930.png  1024w,
+                  /wp-content/uploads/2024/12/142543r43-300x273.png    300w,
+                  /wp-content/uploads/2024/12/142543r43-768x698.png    768w,
+                  /wp-content/uploads/2024/12/142543r43-1536x1396.png 1536w,
+                  /wp-content/uploads/2024/12/142543r43.png           1555w
+                "
+                sizes="auto, (max-width: 640px) 100vw, 640px"
+              />
+            </div>
+          </div>
+          <div
+            class="elementor-element elementor-element-55f76a8 elementor-widget elementor-widget-heading"
+            data-id="55f76a8"
+            data-element_type="widget"
+            data-widget_type="heading.default"
+          >
+            <div class="elementor-widget-container">
+              <h2 class="elementor-heading-title elementor-size-default">
+                THE MOST IMPORTANT PART OF A MEMECOIN IS YOU!
+              </h2>
+            </div>
+          </div>
+        </div>
+        <section
+          class="elementor-section elementor-top-section elementor-element elementor-element-53db0ad elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+          data-id="53db0ad"
+          data-element_type="section"
+        >
+          <div class="elementor-container elementor-column-gap-no">
+            <div
+              class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0c29896"
+              data-id="0c29896"
+              data-element_type="column"
+            >
+              <div class="elementor-widget-wrap elementor-element-populated">
+                <div
+                  class="elementor-element elementor-element-e77c2c3 elementor-align-center elementor-widget elementor-widget-button"
+                  data-id="e77c2c3"
+                  data-element_type="widget"
+                  data-widget_type="button.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div class="elementor-button-wrapper">
+                      <a
+                        class="elementor-button elementor-button-link elementor-size-sm"
+                        href="https://t.me/SealsArmy_Eth"
+                      >
+                        <span class="elementor-button-content-wrapper">
+                          <span class="elementor-button-text"
+                            >JOIN US ON TELEGRAM</span
+                          >
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- main-area-end -->
+
+    <script>
+      jQuery(document).ready(function ($) {
+        /*=============================================
+                =    		DarkMode Active  	      =
+            =============================================*/
+        function tg_theme_toggler() {
+          $(".modeSwitch").on("change", function () {
+            toggleTheme();
+          });
+
+          // set toggle theme scheme
+          function tg_set_scheme(tg_theme) {
+            localStorage.setItem("tg_theme_scheme", tg_theme);
+            document.documentElement.setAttribute("tg-theme", tg_theme);
+          }
+
+          // toggle theme scheme
+          function toggleTheme() {
+            if (localStorage.getItem("tg_theme_scheme") === "dark") {
+              tg_set_scheme("light");
+            } else {
+              tg_set_scheme("dark");
+            }
+          }
+
+          // set the first theme scheme
+          function tg_init_theme() {
+            if (localStorage.getItem("tg_theme_scheme") === "dark") {
+              tg_set_scheme("dark");
+              document.querySelector(".modeSwitch").checked = true;
+            } else {
+              tg_set_scheme("light");
+              document.querySelector(".modeSwitch").checked = false;
+            }
+          }
+          tg_init_theme();
+        }
+        if ($(".modeSwitch").length > 0) {
+          tg_theme_toggler();
+        }
+      });
+    </script>
+
+    <!-- footer-area -->
+    <footer class="footer-area footer-style-default">
+      <div class="copyright__wrapper-default">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 text-center">
+              <div class="copyright__text">
+                <p>
+                  $SEALS is a memecoin designed solely for conceptual and
+                  artistic expression. It is not intended to serve as a
+                  financial investment or instrument for profit-making
+                  activities. Participants should understand that the value of
+                  $SEALS may be subject to extreme volatility and may not retain
+                  any monetary value whatsoever. Furthermore, holders of $SEALS
+                  are encouraged to recognize that the concept behind this
+                  memecoin is to buy and hold indefinitely, as an artistic
+                  statement rather than a financial strategy. Engaging in
+                  speculative activities or attempting to profit from
+                  fluctuations in the value of $SEALS goes against the intended
+                  purpose of the project. Users should exercise caution and
+                  understand that participation in $SEALS is purely for artistic
+                  appreciation and not for financial gain.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer-area-end -->
+    <script type="text/javascript">
+      const lazyloadRunObserver = () => {
+        const lazyloadBackgrounds = document.querySelectorAll(
+          `.e-con.e-parent:not(.e-lazyloaded)`
+        );
+        const lazyloadBackgroundObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                let lazyloadBackground = entry.target;
+                if (lazyloadBackground) {
+                  lazyloadBackground.classList.add("e-lazyloaded");
+                }
+                lazyloadBackgroundObserver.unobserve(entry.target);
+              }
+            });
+          },
+          { rootMargin: "200px 0px 200px 0px" }
+        );
+        lazyloadBackgrounds.forEach((lazyloadBackground) => {
+          lazyloadBackgroundObserver.observe(lazyloadBackground);
+        });
+      };
+      const events = ["DOMContentLoaded", "elementor/lazyload/observe"];
+      events.forEach((event) => {
+        document.addEventListener(event, lazyloadRunObserver);
+      });
+    </script>
+    <link
+      rel="stylesheet"
+      id="e-motion-fx-css"
+      href="/wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css?ver=3.26.2"
+      type="text/css"
+      media="all"
+    />
+    <script type="text/javascript" id="xpro-elementor-addons-widgets-js-extra">
+      /* <![CDATA[ */
+      var XproElementorAddons = {
+        ajax_url: "https:\/\/seals.army\/wp-admin\/admin-ajax.php",
+        nonce: "f4eb0d2045",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/xpro-elementor-addons/assets/js/xpro-widgets.js?ver=1.4.6.4"
+      id="xpro-elementor-addons-widgets-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/xpro-elementor-addons-pro/assets/js/xpro-widgets.js?ver=1.4.6.1"
+      id="xpro-elementor-addons-pro-widgets-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6"
+      id="wp-hooks-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6"
+      id="wp-i18n-js"
+    ></script>
+    <script type="text/javascript" id="wp-i18n-js-after">
+      /* <![CDATA[ */
+      wp.i18n.setLocaleData({ "text direction\u0004ltr": ["ltr"] });
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.2"
+      id="swv-js"
+    ></script>
+    <script type="text/javascript" id="contact-form-7-js-before">
+      /* <![CDATA[ */
+      var wpcf7 = {
+        api: {
+          root: "https:\/\/seals.army\/wp-json\/",
+          namespace: "contact-form-7\/v1",
+        },
+        cached: 1,
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.2"
+      id="contact-form-7-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3"
+      id="jquery-ui-core-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3"
+      id="jquery-ui-mouse-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.3"
+      id="jquery-ui-slider-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//seals.army/wp-content/plugins/theplus_elementor_addon/assets/js/extra/tweenmax/tweenmax.min.js?ver=1735434178"
+      id="theplus-tweenmax-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//seals.army/wp-content/plugins/theplus_elementor_addon/assets/js/extra/wavify.js?ver=1735434178"
+      id="theplus-wavify-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//seals.army/wp-content/plugins/theplus_elementor_addon/assets/js/main/shape-divider/plus-shape-divider.min.js?ver=1735434178"
+      id="theplus-plus-shape-divider-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.3"
+      id="jquery-ui-draggable-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-includes/js/jquery/jquery.ui.touch-punch.js?ver=0.2.2"
+      id="jquery-touch-punch-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/nerko/assets/js/bootstrap.min.js?ver=6.7.1"
+      id="bootstrap-bundle-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/nerko/assets/js/swiper-bundle.min.js?ver=6.7.1"
+      id="swiper-bundle-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/nerko/assets/js/anime.min.js?ver=6.7.1"
+      id="anime-main-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/nerko/assets/js/anime-helper.js?ver=6.7.1"
+      id="anime-helper-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/nerko/assets/js/anime-helper-defined-timelines.js?ver=6.7.1"
+      id="anime-defined-timelines-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/nerko/assets/js/jquery.easing.js?ver=6.7.1"
+      id="jquery-easing-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/themes/nerko/assets/js/main.js?ver=6.7.1"
+      id="nerko-main-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/nerko-core/assets/js/hello-world.js?ver=6.7.1"
+      id="tpcore-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.26.2"
+      id="elementor-pro-webpack-runtime-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.26.3"
+      id="elementor-webpack-runtime-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.26.3"
+      id="elementor-frontend-modules-js"
+    ></script>
+    <script type="text/javascript" id="elementor-pro-frontend-js-before">
+      /* <![CDATA[ */
+      var ElementorProFrontendConfig = {
+        ajaxurl: "https:\/\/seals.army\/wp-admin\/admin-ajax.php",
+        nonce: "df842c3d43",
+        urls: {
+          assets:
+            "https:\/\/seals.army\/wp-content\/plugins\/elementor-pro\/assets\/",
+          rest: "https:\/\/seals.army\/wp-json\/",
+        },
+        settings: { lazy_load_background_images: true },
+        popup: { hasPopUps: false },
+        shareButtonsNetworks: {
+          facebook: { title: "Facebook", has_counter: true },
+          twitter: { title: "Twitter" },
+          linkedin: { title: "LinkedIn", has_counter: true },
+          pinterest: { title: "Pinterest", has_counter: true },
+          reddit: { title: "Reddit", has_counter: true },
+          vk: { title: "VK", has_counter: true },
+          odnoklassniki: { title: "OK", has_counter: true },
+          tumblr: { title: "Tumblr" },
+          digg: { title: "Digg" },
+          skype: { title: "Skype" },
+          stumbleupon: { title: "StumbleUpon", has_counter: true },
+          mix: { title: "Mix" },
+          telegram: { title: "Telegram" },
+          pocket: { title: "Pocket", has_counter: true },
+          xing: { title: "XING", has_counter: true },
+          whatsapp: { title: "WhatsApp" },
+          email: { title: "Email" },
+          print: { title: "Print" },
+          "x-twitter": { title: "X" },
+          threads: { title: "Threads" },
+        },
+        facebook_sdk: { lang: "en_US", app_id: "" },
+        lottie: {
+          defaultAnimationUrl:
+            "https:\/\/seals.army\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json",
+        },
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.26.2"
+      id="elementor-pro-frontend-js"
+    ></script>
+    <script type="text/javascript" id="elementor-frontend-js-before">
+      /* <![CDATA[ */
+      var elementorFrontendConfig = {
+        environmentMode: {
+          edit: false,
+          wpPreview: false,
+          isScriptDebug: false,
+        },
+        i18n: {
+          shareOnFacebook: "Share on Facebook",
+          shareOnTwitter: "Share on Twitter",
+          pinIt: "Pin it",
+          download: "Download",
+          downloadImage: "Download image",
+          fullscreen: "Fullscreen",
+          zoom: "Zoom",
+          share: "Share",
+          playVideo: "Play Video",
+          previous: "Previous",
+          next: "Next",
+          close: "Close",
+          a11yCarouselPrevSlideMessage: "Previous slide",
+          a11yCarouselNextSlideMessage: "Next slide",
+          a11yCarouselFirstSlideMessage: "This is the first slide",
+          a11yCarouselLastSlideMessage: "This is the last slide",
+          a11yCarouselPaginationBulletMessage: "Go to slide",
+        },
+        is_rtl: false,
+        breakpoints: { xs: 0, sm: 480, md: 768, lg: 1025, xl: 1440, xxl: 1600 },
+        responsive: {
+          breakpoints: {
+            mobile: {
+              label: "Mobile Portrait",
+              value: 767,
+              default_value: 767,
+              direction: "max",
+              is_enabled: true,
+            },
+            mobile_extra: {
+              label: "Mobile Landscape",
+              value: 880,
+              default_value: 880,
+              direction: "max",
+              is_enabled: false,
+            },
+            tablet: {
+              label: "Tablet Portrait",
+              value: 1024,
+              default_value: 1024,
+              direction: "max",
+              is_enabled: true,
+            },
+            tablet_extra: {
+              label: "Tablet Landscape",
+              value: 1200,
+              default_value: 1200,
+              direction: "max",
+              is_enabled: false,
+            },
+            laptop: {
+              label: "Laptop",
+              value: 1366,
+              default_value: 1366,
+              direction: "max",
+              is_enabled: false,
+            },
+            widescreen: {
+              label: "Widescreen",
+              value: 2400,
+              default_value: 2400,
+              direction: "min",
+              is_enabled: false,
+            },
+          },
+          hasCustomBreakpoints: false,
+        },
+        version: "3.26.3",
+        is_static: false,
+        experimentalFeatures: {
+          e_font_icon_svg: true,
+          additional_custom_breakpoints: true,
+          container: true,
+          e_swiper_latest: true,
+          e_nested_atomic_repeaters: true,
+          e_onboarding: true,
+          e_css_smooth_scroll: true,
+          theme_builder_v2: true,
+          home_screen: true,
+          "nested-elements": true,
+          editor_v2: true,
+          "link-in-bio": true,
+          "floating-buttons": true,
+          "launchpad-checklist": true,
+        },
+        urls: {
+          assets:
+            "https:\/\/seals.army\/wp-content\/plugins\/elementor\/assets\/",
+          ajaxurl: "https:\/\/seals.army\/wp-admin\/admin-ajax.php",
+          uploadUrl: "https:\/\/seals.army\/wp-content\/uploads",
+        },
+        nonces: { floatingButtonsClickTracking: "ef4b969a86" },
+        swiperClass: "swiper",
+        settings: { page: [], editorPreferences: [] },
+        kit: {
+          active_breakpoints: ["viewport_mobile", "viewport_tablet"],
+          global_image_lightbox: "yes",
+          lightbox_enable_counter: "yes",
+          lightbox_enable_fullscreen: "yes",
+          lightbox_enable_zoom: "yes",
+          lightbox_enable_share: "yes",
+          lightbox_title_src: "title",
+          lightbox_description_src: "description",
+        },
+        post: { id: 32, title: "SEALS", excerpt: "", featuredImage: false },
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.26.3"
+      id="elementor-frontend-js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.26.2"
+      id="pro-elements-handlers-js"
+    ></script>
+    <script
+      type="text/javascript"
+      id="xpro-elementor-widgetarea-editor-js-extra"
+    >
+      /* <![CDATA[ */
+      var XproWidgetAreaEditorParams = {
+        rest_api_url: "https:\/\/seals.army\/wp-json\/",
+      };
+      /* ]]> */
+    </script>
+    <script
+      type="text/javascript"
+      src="/wp-content/plugins/xpro-elementor-addons/inc/controls/assets/js/widgetarea-editor.js?ver=1.4.6.4"
+      id="xpro-elementor-widgetarea-editor-js"
+    ></script>
+  </body>
+</html>
+
+<!-- Page cached by LiteSpeed Cache 6.5.4 on 2024-12-31 09:09:21 -->

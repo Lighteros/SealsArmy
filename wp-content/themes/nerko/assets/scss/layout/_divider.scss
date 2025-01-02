@@ -1,0 +1,13 @@
+@use '../utils' as *;
+
+/*=============================
+    00. Divider
+===============================*/
+div.section-divider {
+    text-align: center;
+    & img {
+        max-width: 80px;
+        display: block;
+        margin: 0 auto;
+    }
+}
